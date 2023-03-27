@@ -1,5 +1,5 @@
 body {
-	background-color: #f1f1f9;
+	background-color: #FAF0E6;
 	margin: 0;
   	padding: 0;
 }
@@ -7,7 +7,7 @@ body {
 .sidebar h1 {
   font-family: "Playfair Display", serif;
   font-size: 350%;
-  color: #96C96C;
+  color: #5E4848;
   display: block;
   padding: 16px;
   padding-top: 0;
@@ -19,7 +19,7 @@ body {
 .sidebar h2 {
   font-family: "Playfair Display", serif;
   font-size: 150%;
-  color: #d3d3da;
+  color: #5E4848;
   display: block;
   padding: 16px;
   margin: 0;
@@ -30,7 +30,7 @@ body {
 
 .sidebar h3{
   font-family: "Playfair Display", serif;
-  color: #d3d3da;
+  color: #808080;
   display: block;
   padding: 16px;
   margin: 0;
@@ -70,7 +70,7 @@ body {
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #FFE4F1;
   font-weight: 600;
   text-decoration: none;
 }
@@ -90,7 +90,8 @@ body {
 
 /* Page content. The content margin-left must match the sidebar width */
 div.content {
-  margin-left: 350px;    /* <--- CHANGE US TOGETHER*/
+  margin-left: auto; 
+    margin-right: auto;
   padding-top: 75px;
   padding-left: 25px;
   padding-right: 16px;
@@ -101,10 +102,10 @@ div.content {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
-  position: fixed;
-  height: 100%;
+  width: 100%;          /* <--- CHANGE US TOGETHER */
+  background-color: #555555
+  position: Relative;
+  height: auto;
   overflow: auto;
 }
 
@@ -112,18 +113,18 @@ div.content {
 .sidebar a {
   font-family: "Playfair Display", serif;
   display: block;
-  color: #d3d3da;
+  color: #555555;
   padding: 16px;
-  padding-right: 30px;
   text-decoration: none;
   text-align: right;
   font-size: 125%;
+    float: left; 
 }
 
 #colophon a {
   font-family: "Playfair Display", serif;
   font-size: 100%;
-  color: #d3d3da;
+  color: #c4a494;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -134,19 +135,19 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
-  color: #d3d3da;
+  background-color: #C9a5A5;
+  color: #FFFFFF;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
-  color: #d3d3da;
+  background-color: #BC8F8F;
+  color: #FFFFFF;
 }
 
 #colophon a:hover:not(.active) {
   background-color: 262536;
-  color: #d3d3da;
+  color: #B9BBB6;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
