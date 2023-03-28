@@ -44,6 +44,16 @@ body {
     width: 50%;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1{
+    font-size: 100px;
+}
+
 #colophon {
   padding-top: 20px;
 }
@@ -102,6 +112,7 @@ div.content {
   padding-left: 25px;
   padding-right: 16px;
   height: 1000px;
+    font-style: 150%;
 }
 
  /* The side navigation menu */
